@@ -1,0 +1,84 @@
+/*
+Name: Feather Options Page Styles
+Desc: Base styles for option pages.
+File: feather-admin.css
+*/
+
+/* -- Settings Updated Message ------------------------- */
+
+.updated {
+  margin-top: 14px!important;
+  width: 796px;
+}
+
+
+/* -- Feather Container -------------------------------- */
+
+.feather {
+  margin-top: 14px;
+  padding: 0 14px;
+  position: relative;
+  width: 784px;
+}
+
+
+/* -- Section Title ------------------------------------ */
+
+.feather h3 {
+  background: none;
+  margin-top: 14px;
+  padding: 8px 0;
+}
+.feather h3:hover {
+  color: #464646;
+  cursor: default;
+}
+
+
+/* -- Image Placeholder -------------------------------- */
+
+.feather_image_placeholder {
+  width: 544px;
+}
+.feather_image_placeholder img {
+  border: 2px dashed #ccc;
+  height: 40px;
+  margin-top: 10px;
+  padding: 4px;
+  max-width: 544px;
+  width: auto;
+}
+
+
+/* -- Colorpicker  ------------------------------------- */
+
+.feather-colorpicker {
+  background: url(../img/colorpicker/select.png);
+  float: left;
+  position: relative;
+  margin-top: -5px;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+}
+.feather-colorpicker div {
+  background: url(../img/colorpicker/select.png) center;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 30px;
+  height: 30px;
+}
+.colorpicker input { line-height: 10px; top:5px }
+
+
+/* -- Credit ------------------------------------------- */
+
+.feather p#wpbandit {
+  font-size: 11px;
+  position: absolute;
+  bottom: 18px;
+  right: 30px;
+}
+p#wpbandit, p#wpbandit a { color: #aaa; }
+p#wpbandit a:hover { color: #888; }

@@ -1,0 +1,97 @@
+/*
+Name: Feather Template Styles
+Desc: Base styles for templates used by the framework.
+File: feather-tmpl.css
+*/
+
+/* -- Shared ------------------------------------------- */
+
+body {
+  color: #444;
+  font-family: Arial,sans-serif;
+  font-size: 15px;
+  margin: 60px 80px;
+}
+
+h1 {
+  color: #222;
+  font-size: 32px;
+  line-height: 45px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* -- Error Templates ---------------------------------- */
+
+.error .version {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.error .msg {
+  background: #ffe5e5;
+  border: 1px solid #ea4343;
+  color: #222;
+  list-style: none;
+  margin-bottom: 30px;
+  padding: 10px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.error table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.error table th {
+  background: #eaeaea;
+  font-size: 12px;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
+.error table th, .error table td {
+  border: 1px solid #cdcdcd;
+  padding: 7.5px 10px;
+}
+
+.error table .num, .error table .line {
+  padding: 5px;
+  text-align: center;
+}
+
+/* -- Maintenance Template ----------------------------- */
+
+.maintenance h1 {
+  color: #444;
+  font-size: 38px;
+  letter-spacing: -1px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.maintenance .box {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+}
+
+.maintenance .note {
+  background: #fffad6;
+  color: #846000;
+  padding: 10px;
+  margin: 0;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
